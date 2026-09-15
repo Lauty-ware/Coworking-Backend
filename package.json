@@ -1,0 +1,22 @@
+{
+  "name": "coworking-backend",
+  "version": "1.0.0",
+  "description": "Backend de reservas de coworking con TypeScript, XP y Cucumber",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "dev": "ts-node src/app.ts",
+    "test": "cucumber-js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.5.0",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.24",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
